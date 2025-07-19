@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Fahad Khan</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <a href="/" class="logo"><i class="fab fa-brain"></i> Fahad Khan</a>
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="home" id="home">
+  <div id="particles-js"></div>
+  <div class="content">
+    <h2>Hi There,<br/> I'm Fahad <span>Khan</span></h2>
+    <p>I am into <span class="typing-text">AI Development & Full Stack</span></p>
+    <a href="#about" class="btn"><span>About Me</span> <i class="fas fa-arrow-circle-down"></i></a>
+    <div class="socials">
+      <ul class="social-icons">
+        <li><a href="https://linkedin.com/in/fahad-khan" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/fahaddev8957" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://instagram.com/mindectivator" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+  <div class="row">
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/imgg.avif" alt="">
+    </div>
+    <div class="content">
+      <h3>I'm Fahad Khan</h3>
+      <span class="tag">AI Developer & Full Stack Enthusiast</span>
+      <p>I’m a passionate student focused on building practical web tools and user-centric solutions. I’ve developed projects like Resumeva, a smart resume builder, and other useful applications such as a task manager, portfolio site, and responsive landing pages. My goal is to create meaningful digital experiences using clean code and modern web technologies.</p>
+      <div class="box-container">
+        <div class="box">
+          <p><span> email : </span> zk070853@gmail.com</p>
+          <p><span> place : </span> Shahjahanpur, India</p>
+        </div>
+      </div>
+      <div class="resumebtn">
+        <a href="mailto:zk070853@gmail.com" class="btn"><span>Email Me</span> <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+  <div class="container">
+    <div class="row" id="skillsContainer">
+      <div class="bar"><div class="info"><span>Python</span></div></div>
+      <div class="bar"><div class="info"><span>JavaScript</span></div></div>
+      <div class="bar"><div class="info"><span>SQL</span></div></div>
+      <div class="bar"><div class="info"><span>React.js</span></div></div>
+      <div class="bar"><div class="info"><span>Node.js</span></div></div>
+      <div class="bar"><div class="info"><span>Firebase</span></div></div>
+      <div class="bar"><div class="info"><span>GPT-4 / Gemini</span></div></div>
+      <div class="bar"><div class="info"><span>TailwindCSS</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section class="education" id="education">
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+  <div class="box-container">
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Bachelor of Computer Applications (BCA)</h3>
+        <p>Invertis University, India</p>
+        <h4>2024 - 2027 | Pursuing</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Senior Secondary (12th)</h3>
+        <p>UP Board</p>
+        <h4>2024 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Secondary School (10th)</h3>
+        <p>UP Board</p>
+        <h4>2020 | Completed</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section class="work" id="work">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+  <div class="box-container">
+    <div class="box tilt">
+      <div class="content">
+        <div class="tag"><h3>Resumeva</h3></div>
+        <div class="desc"><p>Smart online resume builder with export-ready CV templates and AI content helper.</p></div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <div class="content">
+        <div class="tag"><h3>Task Manager</h3></div>
+        <div class="desc"><p>A productivity app to organize daily tasks and deadlines with reminders.</p></div>
+      </div>
+    </div>
+    <div class="box tilt">
+      <div class="content">
+        <div class="tag"><h3>Portfolio Website</h3></div>
+        <div class="desc"><p>This live portfolio showcasing personal brand, skills, and contact form.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <div class="field"><input type="text" name="name" placeholder="Name" required><i class='fas fa-user'></i></div>
+          <div class="field"><input type="text" name="email" placeholder="Email" required><i class='fas fa-envelope'></i></div>
+          <div class="field"><input type="text" name="phone" placeholder="Phone"><i class='fas fa-phone-alt'></i></div>
+          <div class="message"><textarea placeholder="Message" name="message" required></textarea><i class="fas fa-comment-dots"></i></div>
+        </div>
+        <div class="button-area"><button type="submit">Submit <i class="fa fa-paper-plane"></i></button></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>Fahad's Portfolio</h3>
+      <p>Thank you for visiting my personal portfolio. Let’s connect!</p>
+    </div>
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+      <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+      <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+      <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+    </div>
+    <div class="box">
+      <h3>Contact Info</h3>
+      <p><i class="fas fa-phone"></i> +91 7860985333</p>
+      <p><i class="fas fa-envelope"></i> zk070853@gmail.com</p>
+      <p><i class="fas fa-map-marked-alt"></i> Shahjahanpur, India</p>
+      <div class="share">
+        <a href="https://linkedin.com/in/fahad-khan" class="fab fa-linkedin"></a>
+        <a href="https://github.com/fahaddev8957" class="fab fa-github"></a>
+        <a href="mailto:zk070853@gmail.com" class="fas fa-envelope"></a>
+      </div>
+    </div>
+  </div>
+  <h1 class="credit">Made with ❤️ by Fahad Khan</h1>
+</section>
+
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
