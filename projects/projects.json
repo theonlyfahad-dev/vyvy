@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Resumeva",
+    "desc": "A smart AI-powered resume builder that crafts personalized resumes in minutes. Built using ReactJS and TailwindCSS with GPT-4 integration for bullet generation.",
+    "image": "resumeva",
+    "category": "mern",
+    "links": {
+      "view": "https://resumeva.fahadkhan.dev",
+      "code": "https://github.com/fahaddev8957/resumeva"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Fully responsive personal portfolio built using HTML, CSS, and JavaScript to showcase skills, projects, and contact information.",
+    "image": "portfolio",
+    "category": "basicweb",
+    "links": {
+      "view": "https://fahadkhan.dev",
+      "code": "https://github.com/fahaddev8957/portfolio"
+    }
+  }
+]
